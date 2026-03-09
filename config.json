@@ -1,0 +1,11 @@
+{
+  "agents": ["studio-dev", "dev-ops", "main"],
+  "proxyUrl": "http://127.0.0.1:18080",
+  "apiKey": "proxy",
+  "model": "opus",
+  "permissionMode": "auto",
+  "maxBudgetUsd": 1.00,
+  "timeoutMs": 0,
+  "maxConcurrent": 3,
+  "useProxy": true
+}

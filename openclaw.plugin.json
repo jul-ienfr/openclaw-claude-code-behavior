@@ -1,0 +1,17 @@
+{
+  "id": "claude-code-bridge",
+  "name": "Claude Code Bridge",
+  "description": "Delegates coding tasks to the real Claude Code CLI running as a subprocess. One tool, full autonomy, parallel execution, Studio V2 live view.",
+  "skills": ["./skills"],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "agents": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Agent IDs that receive the claude_code tool. Empty = none."
+      }
+    }
+  }
+}

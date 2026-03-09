@@ -1,0 +1,30 @@
+{
+  "name": "claude-code-bridge",
+  "version": "1.0.0",
+  "description": "Claude Code Bridge for OpenClaw — registers claude_code tool for direct delegation to Claude Code CLI. Concurrency control, Studio V2 live view, proxy toggle.",
+  "type": "module",
+  "main": "./index.ts",
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jul-ienfr/openclaw-claude-code-behavior"
+  },
+  "keywords": [
+    "openclaw",
+    "claude-code",
+    "coding",
+    "agent",
+    "bridge",
+    "plugin"
+  ],
+  "author": "jul-ienfr",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {}
+}
